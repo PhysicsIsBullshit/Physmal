@@ -1,3 +1,5 @@
 # Formulala antes de que la IA lo haga.
 Que os den github.
-https://docs.scipy.org/doc/scipy/
+
+Documentación de constantes de la librería SciPy:
+  https://docs.scipy.org/doc/scipy/reference/constants.html#module-scipy.constants
