@@ -12,6 +12,14 @@ respuesta_1 = input("""
 ¿Qué es lo que quieres resolver?
 """)
 
+# Filtro a minúscula, eliminador de tildes
+
+respuesta_1 = respuesta_1.lower()
+filtro_1 = [("á","a"),("é","e"),("í","i"),("ó","o"),("ú","u")]
+for i,j in filtro_1:
+    respuesta_1 = respuesta_1.replace(i,j)
+
+
 
 if respuesta_1 == "pitagoras":
     from Funciones.Generales.pitágoras import *
