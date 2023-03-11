@@ -20,12 +20,18 @@ for i,j in filtro_1:
     respuesta_1 = respuesta_1.replace(i,j)
 
 
+# Pitágoras
 
 if respuesta_1 == "pitagoras":
     from Funciones.Generales.pitágoras import *
     print(pitagoras(*input_pit()))
 
-    
+# Transformación galileana posición
+
+if respuesta_1 == "transformacion galileana":
+    from Funciones.transformaciones_galileanas import *
+    t_galileana()
+
 
 
 # respuesta_2 = int(input("""
