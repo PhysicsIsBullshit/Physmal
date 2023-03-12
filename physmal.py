@@ -1,40 +1,17 @@
-## Comentario
-
-
-
-funciones_rel_esp = ["dilatación", "contracción"]
-
+## Script de interacción con el usuario para el uso del programa physmal.
 
 # Interacción con el usuario.
 
-print("Bienvenido a Physmal.")
-respuesta_1 = input("""
-¿Qué es lo que quieres resolver?
-""")
-
-# Filtro a minúscula, eliminador de tildes
-
-respuesta_1 = respuesta_1.lower()
-filtro_1 = [("á","a"),("é","e"),("í","i"),("ó","o"),("ú","u")]
-for i,j in filtro_1:
-    respuesta_1 = respuesta_1.replace(i,j)
-
+respuesta_0 = int(input("Bienvenido a Physmal.\nEscribir el número asociado al problema:"))
 
 # Pitágoras
 
-if respuesta_1 == "pitagoras":
+if respuesta_0 == 1:
     from Funciones.Generales.pitágoras import *
     print(pitagoras(*input_pit()))
 
 # Transformación galileana posición
 
-if respuesta_1 == "transformacion galileana":
+if respuesta_0 == 2:
     from Funciones.transformaciones_galileanas import *
     t_galileana()
-
-
-
-# respuesta_2 = int(input("""
-# 1. dilataciónpigh
-# 2. contracción
-# """))
