@@ -7,9 +7,8 @@ def t_galileana():
     t = float(input('¿Qué tiempo midió el sistema "quieto"?\n'))
     x = float(input('¿Qué posición mide el sistema "quieto"?\n'))
     xx = x - v*t
-    print('La posición que mide el sistema en "movimiento" es {}\n'.format(str(xx)))
-    
-
+    print('La posición que mide el sistema en "movimiento" es {}metros\n'.format(str(xx)))
+    return xx
 
 
 

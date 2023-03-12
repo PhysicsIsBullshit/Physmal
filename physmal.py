@@ -12,6 +12,6 @@ if respuesta_0 == 1:
 
 # Transformación galileana posición
 
-if respuesta_0 == "transformacion galileana":
+if respuesta_0 == 2:
     from Funciones.transformaciones_galileanas import *
     t_galileana()
