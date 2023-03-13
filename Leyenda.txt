@@ -1,3 +1,5 @@
 1. Pitágoras.
 2. Transformaciones Galileanas.
 3. Energía interna de gases ideales.
+4. Transformación de lorentz (posición)
+5. Transformación de lorentz (tiempo)
