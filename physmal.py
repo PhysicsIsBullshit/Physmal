@@ -15,3 +15,10 @@ if respuesta_0 == 1:
 if respuesta_0 == 2:
     from Funciones.transformaciones_galileanas import *
     t_galileana()
+
+# Energía interna de gases ideales
+
+if respuesta_0 == 3:
+    from Funciones.energía_interna_gases import *
+    energía_interna_gases()
+    
