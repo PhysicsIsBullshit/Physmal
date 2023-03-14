@@ -3,3 +3,5 @@
 3. Energía interna de gases ideales.
 4. Transformación de lorentz (posición)
 5. Transformación de lorentz (tiempo)
+6. Dilatación del tiempo.
+7. Contracción de la longitud.
