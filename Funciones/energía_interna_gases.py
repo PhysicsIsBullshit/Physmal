@@ -1,9 +1,9 @@
 
 def energía_interna_gases():
-    from Constantes.constantes_generales import constantes_generales
+    from Constantes.generales import gene
     n = int(input("\n¿Número de moles?\n"))
     T = int(input("\n¿Temperatura?\n"))
-    U = 1.5*n*T*constantes_generales["gases ideales"]
+    U = 1.5*n*T*gene["gases ideales"]
     print(U)
 
     

@@ -22,3 +22,14 @@ if respuesta_0 == 3:
     from Funciones.energía_interna_gases import *
     energía_interna_gases()
     
+# Transformación de lorentz posición
+
+if respuesta_0 == 4:
+    from Funciones.transformación_lorentz_posición import *
+    transformación_lorentz_posición()
+
+# Transformación de lorentz tiempo
+
+if respuesta_0 == 5:
+    from Funciones.transformación_lorentz_tiempo import *
+    transformación_lorentz_tiempo()
