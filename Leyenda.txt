@@ -5,3 +5,5 @@
 5. Transformación de lorentz (tiempo)
 6. Dilatación del tiempo.
 7. Contracción de la longitud.
+8. Suma relativa de velocidades.
+9. Velocidad de la luz en un medio.
