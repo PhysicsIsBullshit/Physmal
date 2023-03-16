@@ -36,6 +36,12 @@ if respuesta_0 == 5:
 
 # Suma relativa de velocidades
 
-if respuesta_0 == 6:
+if respuesta_0 == 8:
     from Funciones.suma_velocidades_relativa import *
     suma_de_velocidades_relativa()
+
+# Velocidad de la luz en un medio
+
+if respuesta_0 == 9:
+    from Funciones.velocidad_luz_en_un_medio import *
+    velocidad_luz_en_un_medio()
