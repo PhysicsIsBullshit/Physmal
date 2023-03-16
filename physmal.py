@@ -33,3 +33,9 @@ if respuesta_0 == 4:
 if respuesta_0 == 5:
     from Funciones.transformación_lorentz_tiempo import *
     transformación_lorentz_tiempo()
+
+# Suma relativa de velocidades
+
+if respuesta_0 == 6:
+    from Funciones.suma_velocidades_relativa import *
+    suma_de_velocidades_relativa()
